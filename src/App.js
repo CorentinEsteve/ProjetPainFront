@@ -35,7 +35,7 @@ function App() {
     <div>
       <Header />
       <main>
-        <Order />
+        <Order data={data} />
         <Products data={data} />
       </main>
       <footer></footer>

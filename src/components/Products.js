@@ -13,12 +13,12 @@ function Products(props) {
 
             <div className="products">
 
-                {data && data[0]?.map((prod) => (
+                {data && data[0]?.map((product) => (
                     
-                    <div className="product" key={prod.id}>
-                        <h3>{prod.name}</h3>
-                        <p className="description">{prod.description}</p>
-                        <p className="price">{prod.price}€</p>
+                    <div className="product" key={product.id}>
+                        <h3>{product.name}</h3>
+                        <p className="description">{product.description}</p>
+                        <p className="price">{product.price}€</p>
                     </div>
                 ))}
                 
